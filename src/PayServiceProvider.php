@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\LaravelPay;
+namespace SmartJson\LaravelPay;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Yansongda\Pay\Pay;
+use SmartJson\Pay\Pay;
 
 class PayServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Boot the service.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      */
     public function boot()
     {
@@ -36,7 +36,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Regist the service.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class PayServiceProvider extends ServiceProvider
     /**
      * Get services.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author smartjson <me@smartjson.cn>
      *
      * @return array
      */

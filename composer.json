@@ -1,33 +1,33 @@
 {
-    "name": "yansongda/laravel-pay",
+    "name": "SmartJson/laravel-pay",
     "description": "专注 Alipay 和 WeChat 的 laravel 支付扩展包",
     "keywords": ["alipay", "wechat", "pay", "laravel", "package"],
     "support": {
-        "issues": "https://github.com/yansongda/laravel-pay/issues",
-        "source": "https://github.com/yansongda/laravel-pay"
+        "issues": "https://github.com/smartjsoncom/laravel-pay/issues",
+        "source": "https://github.com/smartjsoncom/laravel-pay"
     },
     "authors": [
         {
-            "name": "yansongda",
-            "email": "me@yansongda.cn"
+            "name": "SmartJson",
+            "email": "SmartJson@smartjson.cn"
         }
     ],
     "require": {
         "illuminate/support": "^5.1",
-        "yansongda/pay": "^2.0"
+        "SmartJson/pay": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Yansongda\\LaravelPay\\": "src"
+            "SmartJson\\LaravelPay\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yansongda\\LaravelPay\\PayServiceProvider"
+                "SmartJson\\LaravelPay\\PayServiceProvider"
             ],
             "aliases": {
-                "Pay": "Yansongda\\LaravelPay\\Facades\\Pay"
+                "Pay": "SmartJson\\LaravelPay\\Facades\\Pay"
             }
         }
     },

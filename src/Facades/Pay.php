@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\LaravelPay\Facades;
+namespace SmartJson\LaravelPay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
