@@ -11,7 +11,7 @@
 ## 安装
 
 ```Shell
-$ composer require SmartJson/laravel-pay
+$ composer require smartjson/laravel-pay
 ```
 
 ### 添加 service provider（optional. if laravel < 5.5 || lumen）
